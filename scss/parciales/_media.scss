@@ -1,0 +1,48 @@
+
+@media screen and (max-width:600px) {
+    .nav{
+        display: none;
+    }
+    .nav__hidden {
+        display: block ;
+    }
+    .grid{
+        margin-top: 2rem;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        border-style: double;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 50% 50%;
+        min-height: 50rem;
+        padding: .5rem;
+        grid-template-areas: 
+        "item2 item3 item4"
+        "item5 item6 item7";
+    }
+    .body{
+        background-image: url(./imagenes/fondo.jpg);
+        background-size: 3000px, 100rem;
+        background-repeat: no-repeat;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        color: rgb(255, 196, 0);
+    }
+    
+    .grid__total{
+        margin-top: 3rem;
+        min-height: 100%;
+        width: 300%;
+        text-align: center;
+        padding: 0.5rem;
+        overflow: hidden;
+    }
+    
+    .nav__enlaces{
+        padding: 0.55rem;
+        color: rgb(252, 252, 252);
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}

@@ -37,13 +37,14 @@
 }
 .footer{
     text-align: center;
-    color: rgb(247, 247, 247);
+    color: white;
+    
 }
 .nav{
     display: flex;
     flex-direction: column;
     grid-area: item1;
-    background-color: black;
+    background-color: rgb(37, 35, 35);
     justify-content: center;
 }
 .nav__enlaces{
@@ -97,16 +98,14 @@
 
 
 
-
-
 @media screen and (max-width:600px) {
-.nav{
+    .nav{
     display: none;
-}
-.nav__hidden {
+    }
+    .nav__hidden {
     display: block ;
-}
-.grid{
+    }
+    .grid{
     margin-top: 2rem;
     height: 100%;
     width: 100%;
@@ -120,34 +119,35 @@
     grid-template-areas: 
     "item2 item3 item4"
     "item5 item6 item7";
-}
-.body{
+    }
+    .body{
     background-image: url(./imagenes/fondo.jpg);
     background-size: 3000px, 100rem;
     background-repeat: no-repeat;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     color: rgb(255, 196, 0);
-}
+    }
 
-.grid__total{
+    .grid__total{
     margin-top: 3rem;
     min-height: 100%;
     width: 300%;
     text-align: center;
     padding: 0.5rem;
     overflow: hidden;
-}
+    }
 
-.nav__enlaces{
+    .nav__enlaces{
     padding: 0.55rem;
     color: rgb(252, 252, 252);
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-}
+    }
 
-.video {
+    .video {
     margin-top: 5rem;
     height: 30%;
     width: 70%;
+    }
 }
